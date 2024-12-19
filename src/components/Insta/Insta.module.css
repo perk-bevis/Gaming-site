@@ -1,9 +1,12 @@
 .InstaSlider{
     width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
 }
 
 .insta_img{
     width: 100%;
+    height:auto;
     position: relative;
     z-index: 1;
     overflow: hidden;
