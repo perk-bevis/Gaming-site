@@ -103,6 +103,7 @@
     .service_shape{
       width:15%;
       left:0;
+      margin-left: 16px;
     }
     .service_shape2{
       width:23%;
