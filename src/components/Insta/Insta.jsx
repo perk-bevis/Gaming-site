@@ -25,7 +25,7 @@ function Insta() {
                 900: {
                     slidesPerView: 3
                 },
-                750: {
+                425: {
                     slidesPerView: 1
                 },
 
