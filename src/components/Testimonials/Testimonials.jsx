@@ -27,7 +27,7 @@ function Testimonials() {
                     900: {
                         slidesPerView: 2
                     },
-                    500: {
+                    750: {
                         slidesPerView: 1
                     },
 
