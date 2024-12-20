@@ -18,7 +18,7 @@
     color: var(--primary-color);
 }
 
-@media (max-width:500px) {
+@media (max-width:750px) {
     .copyright p{
         text-align: center;
     }
