@@ -281,7 +281,7 @@
         width: 100%;
     }
 }
-@media (max-width:500px) {
+@media (max-width:750px) {
     .contact_head_text{
         margin: 0;
     }
