@@ -27,7 +27,7 @@
     border: 1px solid var(--primary-color);
  }
  
-@media (min-width:360px) and (max-width:640){
+@media (min-width:360px) and (max-width:640px){
     .marquee_text h1{
        font-size: 5rem;
     }
