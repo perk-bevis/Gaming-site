@@ -92,7 +92,7 @@
       }
   }
   
-  @media (min-width:360px) and (max-width:640px){
+  @media (min-width:325px) and (max-width:425px){
     .service_content{
       gap:10px;
     }
