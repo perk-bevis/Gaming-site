@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 
-@media (max-width:750px) {
+@media (min-width:360px) and (max-width:640){
     .footer_menu{
         flex-wrap: wrap;
         justify-content: center;
