@@ -186,7 +186,7 @@
     }
 }
 
-@media (max-width:750px) {
+@media (min-width:360px) and (max-width:640) {
     .work_head h1{
         font-size: 8rem;
     }
