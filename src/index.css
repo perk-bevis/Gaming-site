@@ -145,40 +145,17 @@ button:hover span:nth-of-type(4){
 }
 
 
-/* Existing styles */
-
-/* Styles for screens up to 900px */
-@media (max-width: 900px) {
-  .Headings h1 {
+@media (max-width:900px) {
+  .Headings h1{
     font-size: 3rem;
   }
 }
 
-/* Styles for screens up to 425px */
-@media (max-width: 425px) {
-  .Headings h1 {
+@media (min-width:325px) and (max-width:425px) {
+  .Headings h1{
     font-size: 2rem;
   }
-  
   * {
-    box-sizing: border-box; /* Sửa lại từ content-box thành border-box */
-  }
-
-  body {
-    padding: 0 10px; /* Thêm padding cho body để tránh cạnh bị cắt */
-  }
-
-  section {
-    padding: 5% 5%; /* Giảm padding của section */
-  }
-
-  button {
-    width: 200px; /* Giảm kích thước button */
-    height: 50px; /* Giảm kích thước button */
-    font-size: 1rem; /* Giảm kích thước font của button */
-  }
-
-  .Headings h2 {
-    font-size: 1.2rem; /* Giảm kích thước font của h2 */
+    box-sizing: content-box;
   }
 }
