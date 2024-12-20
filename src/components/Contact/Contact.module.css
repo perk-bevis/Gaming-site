@@ -281,7 +281,7 @@
         width: 100%;
     }
 }
-@media (min-width:360px) and (max-width:640){
+@media (min-width:360px) and (max-width:640px){
     .contact_head_text{
         margin: 0;
     }
