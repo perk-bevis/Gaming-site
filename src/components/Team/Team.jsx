@@ -29,7 +29,7 @@ function Team(){
                 900: {
                     slidesPerView: 2
                 },
-                640: {
+                425: {
                     slidesPerView: 1
                 },
     
