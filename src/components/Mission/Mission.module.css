@@ -134,7 +134,7 @@
     }
 }
 
-@media (min-width:360px) and (max-width:640){
+@media (min-width:360px) and (max-width:640px){
     .mission_head{
         flex-direction: column;
         justify-content: flex-start;
