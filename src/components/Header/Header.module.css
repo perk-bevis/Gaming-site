@@ -187,7 +187,7 @@ header{
   }
 }
 
-@media (min-width:360px) and (max-width:640) {
+@media (min-width:360px) and (max-width:640px) {
   .hero_bottom_content h2 {
     font-size: 3rem;
     line-height: 3.5rem;
