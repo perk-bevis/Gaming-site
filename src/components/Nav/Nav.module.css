@@ -164,7 +164,7 @@
     }
 }
 
-@media (max-width:500px){
+@media (max-width:750px){
     .right_menu h2{
         display: none;
     }
