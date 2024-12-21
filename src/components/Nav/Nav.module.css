@@ -165,9 +165,6 @@
 }
 
 @media (max-width:375px){
-    .nav{
-        display:flex;
-    }
     .right_menu h2{
         display: none;
     }
