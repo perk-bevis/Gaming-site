@@ -202,6 +202,7 @@ header{
   .hero_title {
     font-size: 4.3rem;
     line-height: 4.5rem;
+     display: block;
   }
 
   .hero_boxs {
