@@ -22,7 +22,7 @@ function GameCards() {
             900: {
                 slidesPerView: 2
             },
-            425: {
+            375: {
                 slidesPerView: 1
             },
 
