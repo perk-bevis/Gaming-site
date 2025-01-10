@@ -1,0 +1,220 @@
+.our_works{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 5% 0%;
+    background-color: var(--black-color);
+    padding-top: 0;
+}
+
+.work_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.work_head h1{
+    font-size: 20rem;
+    line-height: 20rem;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: 1.8px;
+    -webkit-text-fill-color: var(--black-color);
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to top ,transparent 14%, #fff);
+    margin-top: -40px;
+}
+
+.work_container{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_card{
+    width: 100%;
+    position: relative;
+}
+
+.work_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+    padding: 50px 20%;
+    /* position: relative; */
+    z-index: 5;
+}
+
+/* .work_box:hover:after,
+.work_box:hover .work_box_bg{
+    opacity: 1;
+} */
+
+/* .work_box:hover .work_text h1{
+    color: var(--black-color);
+} */
+
+/* .work_box:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007c29d4;
+    z-index: -1;
+    opacity: 0;
+    transition: var(--transition2);
+} */
+
+/* .work_box_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: var(--transition2);
+    z-index: -1;
+} */
+
+.work_text{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.work_text h1{
+    font-size: 3rem;
+    font-family: var(--Anton-font);
+    font-weight: 500;
+}
+
+.work_box h2{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.marquee_text{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.work_card marquee{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+    opacity: 0;
+    background-image: url(./../../assets/work-card-bg1-1.png);
+    padding: 53px 0;
+    background-size: cover;
+    z-index: 1;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.work_card marquee:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007326bd;
+    z-index: -1;
+    transition: var(--transition);
+}
+
+.work_card:hover marquee{
+    opacity: 1;
+}
+
+.work_card .marquee_text h1{
+    font-family: var(--Anton-font);
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--black-color);
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--black-color);
+    transition: var(--transition);
+}
+
+.work_card .marquee_text h1:hover{
+    color: var(--primary-color);
+}
+
+.work_card .marquee_text span{
+    color: var(--black-color);
+    font-size: 3rem;
+}
+
+
+/* MQ section */
+@media (max-width:1400px) {
+    .work_text h1{
+        font-size: 2rem;
+    }
+    .work_text h2{
+        font-size: 1.1rem;
+    }
+    .work_card marquee{
+        padding: 40px 0;
+        /* transform: translate(0%, -125%); */
+    }
+}
+
+@media (max-width:1200px) {}
+@media (max-width:900px) {
+    .work_head h1{
+        font-size: 14rem;
+    }
+    .work_box{
+        padding: 50px 10%;
+    }
+}
+
+@media (max-width:500px) {
+    .work_card marquee{
+        max-height:auto ;
+        transform: translate(0%, -125%);
+    }
+    .our_works{
+        overflow: hidden;
+    }
+
+    .work_card marquee{
+        position:relative;
+    }
+    .work_head h1{
+        font-size: 6rem;
+    }
+    .work_text{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .work_text h1{
+        font-size: 1.5rem;
+    }
+    .our_works{
+        gap: 0;
+    }
+    .work_container{
+        margin: 0;
+    }
+}

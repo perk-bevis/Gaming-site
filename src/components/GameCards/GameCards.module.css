@@ -1,0 +1,38 @@
+.GameSlider{
+    width: 100%;
+
+}
+
+.GameCards{
+    width: 100%;
+    position: relative;
+}
+
+.GameCards button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    transition: var(--transition2);
+}
+
+.GameCards:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    opacity: 0;
+    transition: var(--transition2);
+}
+
+.GameCards:hover:after{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.GameCards:hover button{
+    opacity: 1;
+}
