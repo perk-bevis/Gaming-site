@@ -7,7 +7,7 @@ function Header(){
                 <div className={HeaderCss.hero_content}>
                 <h1 className={HeaderCss.hero_title}>ZOX<span> GAMING</span></h1>
                 <div className={HeaderCss.hero_boxs}>
-                    <p>*Based in paris, available woldwide</p>
+                    <p>*Trụ sở tại hà nội, hoạt động trên toàn thế giới.</p>
                     <div className={HeaderCss.hero_social}>
                         <i className={`${HeaderCss.hero_icon} ri-facebook-fill`}></i>
                         <i className={`${HeaderCss.hero_icon} ri-twitter-fill`}></i>
@@ -17,9 +17,9 @@ function Header(){
                 </div>
                 <div className={HeaderCss.hero_bottom}>
                     <div className={HeaderCss.hero_bottom_content}>
-                        <h2>SOME COOL & DROP CHARETERS</h2>
-                        <p>Based in paris, available woldwideBased in paris, available woldwideBased in paris, available woldwideBased in paris, available woldwide</p>
-                        <button> NEXT CAN BE YOU
+                        <h2>MỘT SỐ CHARETERS MÁT MẺ & THẢ</h2>
+                        <p></p>Trụ sở tại hà nội, hoạt động trên toàn thế giới.</p>
+                        <button> Làm việc với chúng tôi
                             <i className={'ri-arrow-right-line'}></i>
                             <span></span>
                             <span></span>
