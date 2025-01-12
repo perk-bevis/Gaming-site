@@ -184,17 +184,12 @@ header{
 }
 
 @media (max-width:500px){
-    .hero_content {
-    display: flex;
-    justify-content: space-between; /* Cách đều giữa ZOX GAMING và nút search */
-    align-items: center;
-  }
-
-  .hero_title {
-    flex: 1; /* Chiếm toàn bộ khoảng trống bên trái */
-    font-size: 3rem;
-    line-height: 4rem;
-    text-align: left; /* Giữ nguyên căn trái */
+    .hero_title {
+    font-size: 4.5rem; /* Tăng kích thước chữ */
+    line-height: 5rem; /* Đảm bảo không quá sát nhau */
+    letter-spacing: 0.2rem; /* Tăng khoảng cách giữa các chữ cái */
+    text-align: left; /* Đặt vị trí chữ như cũ */
+    width: 100%; /* Đảm bảo dòng chữ phủ đủ chiều ngang */
   }
   .hero_bottom_content h2 {
     font-size: 3rem;
