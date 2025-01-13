@@ -18,7 +18,7 @@ function Header(){
                 <div className={HeaderCss.hero_bottom}>
                     <div className={HeaderCss.hero_bottom_content}>
                         <h2>MỘT SỐ CHARETERS MÁT MẺ & THẢ</h2>
-                        <p></p>Trụ sở tại hà nội, hoạt động trên toàn thế giới.</p>
+                        <p>Trụ sở tại hà nội, hoạt động trên toàn thế giới.</p>
                         <button> Làm việc với chúng tôi
                             <i className={'ri-arrow-right-line'}></i>
                             <span></span>
