@@ -4,7 +4,7 @@ import HeroImg from './../../assets/hero.png'
 function Header(){
     return (
         <header>
-                <div className={HeaderCss.hero_content}>
+            <div className={HeaderCss.hero_content}>
                 <h1 className={HeaderCss.hero_title}>ZOX<span> GAMING</span></h1>
                 <div className={HeaderCss.hero_boxs}>
                     <p>*Trụ sở tại hà nội, hoạt động trên toàn thế giới.</p>
