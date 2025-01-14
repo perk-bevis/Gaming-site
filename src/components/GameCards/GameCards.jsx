@@ -33,7 +33,7 @@ function GameCards() {
                 <div className={GameCardCss.game_img}>
                     <img src={GameCardImg1} alt="" />
                 </div>
-                <button> DOWNLOAD
+                <button> TẢI XUỐNG
                     <i className={'ri-arrow-right-line'}></i>
                     <span></span>
                     <span></span>
@@ -46,7 +46,7 @@ function GameCards() {
                 <div className={GameCardCss.game_img}>
                     <img src={GameCardImg2} alt="" />
                 </div>
-                <button> DOWNLOAD
+                <button> TẢI XUỐNG
                     <i className={'ri-arrow-right-line'}></i>
                     <span></span>
                     <span></span>
@@ -59,7 +59,7 @@ function GameCards() {
                 <div className={GameCardCss.game_img}>
                     <img src={GameCardImg3} alt="" />
                 </div>
-                <button> DOWNLOAD
+                <button> TẢI XUỐNG
                     <i className={'ri-arrow-right-line'}></i>
                     <span></span>
                     <span></span>
@@ -72,7 +72,7 @@ function GameCards() {
                 <div className={GameCardCss.game_img}>
                     <img src={GameCardImg4} alt="" />
                 </div>
-                <button> DOWNLOAD
+                <button> TẢI XUỐNG
                     <i className={'ri-arrow-right-line'}></i>
                     <span></span>
                     <span></span>
@@ -85,7 +85,7 @@ function GameCards() {
                 <div className={GameCardCss.game_img}>
                     <img src={GameCardImg4} alt="" />
                 </div>
-                <button> DOWNLOAD
+                <button> TẢI XUỐNG
                     <i className={'ri-arrow-right-line'}></i>
                     <span></span>
                     <span></span>
