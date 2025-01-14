@@ -11,8 +11,8 @@ function Team(){
     return(
         <section className={TeamCss.our_team}>
             <div className="Headings">
-                <h2>Our Team</h2>
-                <h1>OUR AVENGERS</h1>
+                <h2>Đội ngũ của chúng tôi</h2>
+                <h1>Nhân Viên</h1>
             </div>
 
             <Swiper className={TeamCss.TeamSlider}
@@ -44,8 +44,8 @@ function Team(){
                         </div>
                         <div className={TeamCss.team_det}>
                             <div className={TeamCss.team_info}>
-                                <h2>James tylor</h2>
-                                <p>Measure and analyze performance</p>
+                                <h2>jeemy Dang</h2>
+                                <p>Đo lường và phân tích hiệu suất</p>
                             </div>
                             <div className={TeamCss.social}>
                                 <i className="ri-facebook-fill"></i>
@@ -63,8 +63,8 @@ function Team(){
                         </div>
                         <div className={TeamCss.team_det}>
                             <div className={TeamCss.team_info}>
-                                <h2>Katty Williams</h2>
-                                <p>Measure and analyze performance</p>
+                                <h2>Vitor Nguyễn</h2>
+                                <p>Đo lường và phân tích hiệu suất</p>
                             </div>
                             <div className={TeamCss.social}>
                                 <i className="ri-facebook-fill"></i>
@@ -84,7 +84,7 @@ function Team(){
                         <div className={TeamCss.team_det}>
                             <div className={TeamCss.team_info}>
                                 <h2>Herry Newman</h2>
-                                <p>Measure and analyze performance</p>
+                                <p>Đo lường và phân tích hiệu suất</p>
                             </div>
                             <div className={TeamCss.social}>
                                 <i className="ri-facebook-fill"></i>
@@ -102,9 +102,8 @@ function Team(){
                             <span>founder</span>
                         </div>
                         <div className={TeamCss.team_det}>
-                            <div className={TeamCss.team_info}>
-                                <h2>James tylor</h2>
-                                <p>Measure and analyze performance</p>
+                                <h2>trang nguyen</h2>
+                                <p>Đo lường và phân tích hiệu suất</p>
                             </div>
                             <div className={TeamCss.social}>
                                 <i className="ri-facebook-fill"></i>
@@ -123,8 +122,8 @@ function Team(){
                         </div>
                         <div className={TeamCss.team_det}>
                             <div className={TeamCss.team_info}>
-                                <h2>Katty Williams</h2>
-                                <p>Measure and analyze performance</p>
+                                <h2>victor nguyen</h2>
+                                <p>Đo lường và phân tích hiệu suất</p>
                             </div>
                             <div className={TeamCss.social}>
                                 <i className="ri-facebook-fill"></i>
