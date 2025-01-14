@@ -5,35 +5,35 @@ function Works() {
     return (
         <div className={WorksCss.our_works}>
             <div className={WorksCss.work_head}>
-                <h1>WORKS</h1>
+                <h1>CÁC TÁC PHẨM</h1>
             </div>
             <div className={WorksCss.work_container}>
                 {/* card1 */}
                 <div className={WorksCss.work_card}>
                     <div className={WorksCss.work_box}>
                         <div className={WorksCss.work_text}>
-                            <h1>Upcoming Game Release</h1>
-                            <span>/ CyberSaga Chronicles</span>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
+                            <span>/ Biên Niên Sử CyberSaga</span>
                         </div>
-                        <h2>Action - Adventure</h2>
+                        <h2>Hành động - Phiêu lưu</h2>
                     </div>
                     <marquee behavior="alternate" direction="">
                         <div className={WorksCss.marquee_text}>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
                         </div>
                     </marquee>
@@ -42,28 +42,26 @@ function Works() {
                 <div className={WorksCss.work_card}>
                     <div className={WorksCss.work_box}>
                         <div className={WorksCss.work_text}>
-                            <h1>The Rise of cloud Gaming</h1>
-                            <span>/ Multiplayer</span>
+                            <h1>Sự Trỗi Dậy Của Cloud Gaming</h1>
+                            <span>/ Nhiều Người Chơi</span>
                         </div>
-                        <h2>Adventure - pvp</h2>
+                        <h2>Phiêu lưu - PvP</h2>
                     </div>
                     <marquee behavior="alternate" direction="">
                         <div className={WorksCss.marquee_text}>
-                            <h1>Upcoming Game Release</h1>
+                            <h1>Phát Hành Trò Chơi Sắp Tới</h1>
                             <span>/</span>
-                            <h1>The Rise of cloud Gaming</h1>
+                            <h1>Sự Trỗi Dậy Của Cloud Gaming</h1>
                             <span>/</span>
-                            <h1>The Rise of cloud Gaming</h1>
+                            <h1>Sự Trỗi Dậy Của Cloud Gaming</h1>
                             <span>/</span>
-                            <h1>The Rise of cloud Gaming</h1>
+                            <h1>Sự Trỗi Dậy Của Cloud Gaming</h1>
                             <span>/</span>
-                            <h1>The Rise of cloud Gaming</h1>
+                            <h1>Sự Trỗi Dậy Của Cloud Gaming</h1>
                             <span>/</span>
-                            <h1>The Rise of cloud Gaming</h1>
+                            <h1>Sự Trỗi Dậy Của Cloud Gaming</h1>
                             <span>/</span>
-                            <h1>The Rise of cloud Gaming</h1>
-                            <span>/</span>
-                            <h1>The Rise of cloud Gaming</h1>
+                            <h1>Sự Trỗi Dậy Của Cloud Gaming</h1>
                             <span>/</span>
                         </div>
                     </marquee>
@@ -72,28 +70,28 @@ function Works() {
                 <div className={WorksCss.work_card}>
                     <div className={WorksCss.work_box}>
                         <div className={WorksCss.work_text}>
-                            <h1>Behind The Scene</h1>
-                            <span>/ Infinity Forge</span>
+                            <h1>Phía Sau Hậu Trường</h1>
+                            <span>/ Lò Rèn Vô Tận</span>
                         </div>
-                        <h2>Strategy</h2>
+                        <h2>Chiến thuật</h2>
                     </div>
                     <marquee behavior="alternate" direction="">
                         <div className={WorksCss.marquee_text}>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
-                            <h1> Behind The Scene</h1>
+                            <h1>Phía Sau Hậu Trường</h1>
                             <span>/</span>
                         </div>
                     </marquee>
@@ -102,28 +100,28 @@ function Works() {
                 <div className={WorksCss.work_card}>
                     <div className={WorksCss.work_box}>
                         <div className={WorksCss.work_text}>
-                            <h1>Gaming  Event Spotlight</h1>
-                            <span>/ 2023 Recap</span>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
+                            <span>/ Tổng Kết 2023</span>
                         </div>
-                        <h2>/ Sports -Racing</h2>
+                        <h2>Thể Thao - Đua Xe</h2>
                     </div>
                     <marquee behavior="alternate" direction="">
                         <div className={WorksCss.marquee_text}>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
-                            <h1>Gaming  Event Spotlight</h1>
+                            <h1>Điểm Nhấn Sự Kiện Gaming</h1>
                             <span>/</span>
                         </div>
                     </marquee>
@@ -132,28 +130,28 @@ function Works() {
                 <div className={WorksCss.work_card}>
                     <div className={WorksCss.work_box}>
                         <div className={WorksCss.work_text}>
-                            <h1>Gaming for a cause</h1>
-                            <span>/ Community Spotlight</span>
+                            <h1>Gaming Vì Cộng Đồng</h1>
+                            <span>/ Điểm Nhấn Cộng Đồng</span>
                         </div>
-                        <h2>battle royale -pvp</h2>
+                        <h2>Battle Royale - PvP</h2>
                     </div>
                     <marquee behavior="alternate" direction="">
                         <div className={WorksCss.marquee_text}>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
-                            <h1>Gaming for a cause</h1>
+                            <h1>Gaming Vì Cộng Đồng</h1>
                             <span>/</span>
                         </div>
                     </marquee>
@@ -163,4 +161,4 @@ function Works() {
     );
 }
 
-export default Works
+export default Works;
