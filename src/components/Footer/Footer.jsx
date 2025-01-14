@@ -8,11 +8,11 @@ function Footer() {
                 <a href="#">Zex <span>ora</span></a>
             </div>
             <div className={FooterCss.footer_menu}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Dự án</a></li>
                 <li><a href="#">Highlights</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Liên hệ</a></li>
             </div>
             <div className={FooterCss.footer_inputs}>
                 <input type="text" placeholder='Your E-mail' />
