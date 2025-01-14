@@ -13,19 +13,19 @@ function Mission(){
             <div className={MissionCss.Mission_infos}>
                 <div className={MissionCss.info_box}>
                     <h1>370+</h1>
-                    <h2>Creating and optimizing websites</h2>
+                    <h2>Tạo và tối ưu hóa trang web</h2>
                 </div>
                 <div className={MissionCss.info_box}>
                     <h1>10+</h1>
-                    <h2>Brand awareness and recognition</h2>
+                    <h2>Nhận thức và nhận diện thương hiệu</h2>
                 </div>
                 <div className={MissionCss.info_box}>
                     <h1>4X</h1>
-                    <h2>Measure and analyze performance</h2>
+                    <h2>Đo lường và phân tích hiệu suất</h2>
                 </div>
                 <div className={MissionCss.info_box}>
                     <h1>50%</h1>
-                    <h2>Increase conversions and sales</h2>
+                    <h2>Tăng chuyển đổi và doanh số bán hàng</h2>
                 </div>
             </div>
         </section>
