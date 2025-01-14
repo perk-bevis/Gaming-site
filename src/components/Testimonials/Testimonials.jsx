@@ -10,8 +10,8 @@ function Testimonials() {
     return (
         <section className={TestimonialCss.testimonial}>
             <div className="Headings">
-            <h2>testimonial</h2>
-                <h1>WHAT PEOPLE ARE SAYING ABOUT US</h1>
+            <h2>Lời Chứng thực</h2>
+                <h1>MỌI NGƯỜI NÓI GÌ VỀ CHÚNG TÔI</h1>
             </div>
             <Swiper className={TestimonialCss.TetsSlider}
                 slidesPerView={1}
@@ -38,10 +38,10 @@ function Testimonials() {
                     <div className={TestimonialCss.test_box}>
                         <div className={TestimonialCss.test_card}>
                             <div className={TestimonialCss.test_info}>
-                                <h2>Nick Davis</h2>
+                                <h2>Phu nguyen</h2>
                                 <h5>UI/UX Designer</h5>
                             </div>
-                            <p>Driven by innovation and creativity, we're constantly evolving and expanding our platform to bring you the latest and greatest in gaming.</p>
+                            <p>Được thúc đẩy bởi sự đổi mới và sáng tạo, chúng tôi không ngừng phát triển và mở rộng nền tảng của mình để mang đến cho bạn những trò chơi mới nhất và tuyệt vời nhất.</p>
                         </div>
                         <div className={TestimonialCss.client_img}>
                             <img src={clientImg1} alt="" />
@@ -53,11 +53,11 @@ function Testimonials() {
                     <div className={TestimonialCss.test_box}>
                         <div className={TestimonialCss.test_card}>
                             <div className={TestimonialCss.test_info}>
-                                <h2>Miranda Halim</h2>
+                                <h2>trong dang</h2>
                                 <h5>Founder</h5>
+                            </div
+                              <p>Được thúc đẩy bởi sự đổi mới và sáng tạo, chúng tôi không ngừng phát triển và mở rộng nền tảng của mình để mang đến cho bạn những trò chơi mới nhất và tuyệt vời nhất.</p>
                             </div>
-                            <p>Driven by innovation and creativity, we're constantly evolving and expanding our platform to bring you the latest and greatest in gaming.</p>
-                        </div>
                         <div className={TestimonialCss.client_img}>
                             <img src={clientImg2} alt="" />
                         </div>
@@ -68,11 +68,11 @@ function Testimonials() {
                     <div className={TestimonialCss.test_box}>
                         <div className={TestimonialCss.test_card}>
                             <div className={TestimonialCss.test_info}>
-                                <h2>Alonso Dowson</h2>
+                                <h2>tran tra</h2>
                                 <h5>Ceo</h5>
                             </div>
-                            <p>Driven by innovation and creativity, we're constantly evolving and expanding our platform to bring you the latest and greatest in gaming.</p>
-                        </div>
+                               <p>Được thúc đẩy bởi sự đổi mới và sáng tạo, chúng tôi không ngừng phát triển và mở rộng nền tảng của mình để mang đến cho bạn những trò chơi mới nhất và tuyệt vời nhất.</p>
+                            </div>
                         <div className={TestimonialCss.client_img}>
                             <img src={clientImg3} alt="" />
                         </div>
@@ -83,10 +83,10 @@ function Testimonials() {
                     <div className={TestimonialCss.test_box}>
                         <div className={TestimonialCss.test_card}>
                             <div className={TestimonialCss.test_info}>
-                                <h2>Miranda Halim</h2>
+                                <h2>huyen linh</h2>
                                 <h5>Founder</h5>
                             </div>
-                            <p>Driven by innovation and creativity, we're constantly evolving and expanding our platform to bring you the latest and greatest in gaming.</p>
+                            <p>Được thúc đẩy bởi sự đổi mới và sáng tạo, chúng tôi không ngừng phát triển và mở rộng nền tảng của mình để mang đến cho bạn những trò chơi mới nhất và tuyệt vời nhất.</p>
                         </div>
                         <div className={TestimonialCss.client_img}>
                             <img src={clientImg2} alt="" />
