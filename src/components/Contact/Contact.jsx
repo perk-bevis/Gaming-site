@@ -8,7 +8,7 @@ function Contact() {
                 <h1>Liên hệ với chúng tôi</h1>
                 <div className={ContactCss.contact_head_text}>
                     <div className={ContactCss.line}></div>
-                    <h1>HAVE A PROJECT</h1>
+                    <h1>CÓ MỘT DỰ ÁN</h1>
                 </div>
             </div>
             <div className={ContactCss.contact_container}>
