@@ -17,6 +17,10 @@ header{
     line-height: 11rem;
     font-weight: 500;
     font-family: var(--Anton-font);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero_title span{
@@ -135,6 +139,7 @@ header{
 @media (max-width: 1400px) {
      .hero_title{
          font-size: 11.2rem;
+        line-height: 8rem; 
      }
 
      .hero_bottom_content h2{
@@ -149,6 +154,7 @@ header{
 @media (max-width: 1200px) {
   .hero_title {
     font-size: 8rem;
+    line-height: 6rem;
   }
 
   .hero_bottom_content h2 {
@@ -165,7 +171,7 @@ header{
 @media (max-width: 900px) {
   .hero_title {
     font-size: 6rem;
-    line-height: 8rem;
+    line-height: 5rem;
   }
 
   .hero_bottom {
@@ -185,38 +191,37 @@ header{
 
 @media (max-width:500px){
     .hero_title {
-    font-size: 4.5rem;
-    line-height: 5rem;
-    max-width: 100%; 
-  }
-  .hero_bottom_content h2 {
-    font-size: 3rem;
-    line-height: 3.5rem;
-  }
+        font-size: 4rem;
+        line-height: 4rem;
+        max-width: 100%; 
+    }
+    .hero_bottom_content h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
 
-  .hero_bottom_content p {
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 500;
-  }
+    .hero_bottom_content p {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 500;
+    }
 
-  .hero_content .hero_title span{
-    
-    line-height: 4.5rem;
-  }
+    .hero_content .hero_title span{
+        line-height: 4rem;
+    }
 
-  .hero_boxs {
-    margin-top: 10px;
-  }
-  .hero_boxs p {
-    font-size: 0.9rem;
-  }
+    .hero_boxs {
+        margin-top: 10px;
+    }
+    .hero_boxs p {
+        font-size: 0.9rem;
+    }
 
-  .shape {
-    top: 90%;
-    left: 50%;
-    width: 200px;
-    height: 200px;
-  }
+    .shape {
+        top: 90%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+    }
 }
 
